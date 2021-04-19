@@ -38,7 +38,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">{/*Weirdly changes size of the 1st box*/}
                     <h3>Private/Family Events</h3>
-                    <p>Like birthdays, wedding receptions, sangeets, dinner parties, any kind of environment basicall</p>
+                    <p>Like birthdays, wedding receptions, sangeets, dinner parties, any kind of environment basically anything you ask for</p>
                 </div>
                 </div>
             </div>
