@@ -34,7 +34,7 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box"> {/*size of 1st section "webdevelopment*/}
                 <div className="services color-1">{/*Color of hexagon and bottom pad of Web development*/}
                 <span className="icon">{/*Incorporating hexagon*/}
-                    <i className="icon-content-right"/>{/*Incorporating bulb */}
+                    <i className="icon-home"/>{/*Incorporating bulb */}
                 </span>
                 <div className="desc">{/*Weirdly changes size of the 1st box*/}
                     <h3>Private/Family Events</h3>
@@ -56,7 +56,7 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box">{/*Size,animation and text align of div*/}
                 <div className="services color-5">{/*Color of hexagon*/}
                 <span className="icon">{/*hexagon*/}
-                    <i className="icon-data" />{/*Server icon*/}
+                    <i className="icon-flow-children" />{/*Server icon*/}
                 </span>
                 <div className="desc">
                     <h3>Team Builiding</h3>
