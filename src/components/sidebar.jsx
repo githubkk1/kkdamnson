@@ -28,7 +28,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.facebook.com/karunkrishna" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>{/*Linking fb to fb icon*/}
                 <li><a href="https://twitter.com/karunkrishna18" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>{/*Same for twitter*/}
                 <li><a href="https://www.instagram.com/karunkrishnaactually/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>{/*INstagram*/}
-                <li><a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>{/*Linkedin*/}
+                <li><a href="https://www.linkedin.com/in/karun-krishna-4354b1101/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>{/*Linkedin*/}
                 <li><a href="https://github.com/githubkk1/" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>{/*git*/}
               </ul>
             </nav>
