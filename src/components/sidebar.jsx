@@ -5,7 +5,7 @@ export default class Sidebar extends Component {
     return (
       <div>
         <div>
-        <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
+        <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></nav>
           <aside id="colorlib-aside" className="border js-fullheight">{/*aside function to sidebar with full height*/}
             <div className="text-center"> {/*Center align for email id*/}
               <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
@@ -13,7 +13,7 @@ export default class Sidebar extends Component {
               <span className="colorlib-email"><i className="icon-email"></i> kk@gmail.com</span>{/*custom email format*/}
             </div>{/*End of div till email*/}
             <nav>
-              <div id="navbar" className="collapse">
+              <div id="navbar" className="collapse"> 
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>{/*Linking introduction button to intro*/}
                   <li><a href="#about" data-nav-section="about">About</a></li>{/*Same as intro button to intro*/}
@@ -23,7 +23,7 @@ export default class Sidebar extends Component {
                 </ul>
               </div>
             </nav>
-            <nav id="colorlib-main-menu">{/*M<enu under sidebar's fullname*/}
+            <nav id="colorlib-main-menu">{/*Menu under sidebar's fullname*/}
               <ul>
                 <li><a href="https://www.facebook.com/karunkrishna" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>{/*Linking fb to fb icon*/}
                 <li><a href="https://twitter.com/karunkrishna18" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>{/*Same for twitter*/}
